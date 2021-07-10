@@ -1,0 +1,4 @@
+
+-- (a%) Marco Antônio \ \\ /#Queiroz É um teste?  !
+select empcod, codemp, emp.nome as codemp, codempresa, codempresa as empresa
+from empresa emp
