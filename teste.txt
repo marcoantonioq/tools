@@ -1,4 +1,3 @@
+SELECT CODEMP, EMP.NOME AS NOME, CODEMPRESA, CODEMPRESA AS EMPRESA FROM EMPRESA EMP INNER JOIN EMPRESA2 EMP2 ON, GFPAR, COMP2;
 
--- (a%) Marco Antônio \ \\ /#Queiroz É um teste?  !
-select empcod, codemp, emp.nome as codemp, codempresa, codempresa as empresa
-from empresa emp
+SELECT EMPCOD, CODEMP, EMP.NOME AS CODEMP, CODEMPRESA, CODEMPRESA AS EMPRESA FROM EMPRESA EMP;
